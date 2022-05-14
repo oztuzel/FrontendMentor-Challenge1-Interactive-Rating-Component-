@@ -1,0 +1,22 @@
+
+
+.rating {
+    display: flex;  
+    padding: 20px 20px 20px 20px;
+    width: 55px;
+    height: 55px;
+    justify-content: space-between;
+    border-radius: 80px;
+    margin: 30px 10px 30px ;
+    background-color: var(--medium-grey);
+    box-sizing: border-box;
+}
+
+.rating:hover{
+    background-color: var(--white);
+}
+
+.rating:active{
+    background-color: var(--orange);
+}
+
